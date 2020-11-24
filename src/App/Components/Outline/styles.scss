@@ -1,0 +1,30 @@
+.container-button {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+//! === === BUTTON DEFAULT === ===
+.outline {
+    padding:8px 16px;
+    background: white;
+    color: #3D5AFE;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20,27px;
+    border: 1px solid #3D5AFE;
+    cursor:pointer;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    &:hover {
+        background: #EAEFFF;
+        color: #3D5AFE;
+        border: 1px solid #3D5AFE;
+    }
+    &:focus {
+        background: #EAEFFF;
+        color: #3D5AFE;
+        border: 1px solid #3D5AFE;
+        outline: 0
+    }
+}
