@@ -87,5 +87,5 @@ $ yarn start
 
 ## Contact
 
-- Website [your-website.com](https://anthonydecuyper.netlify.app/)
+- Website [https://anthonydecuyper.netlify.app/](https://anthonydecuyper.netlify.app/)
 - GitHub [@decuyperanthony](https://github.com/decuyperanthony)
