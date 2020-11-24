@@ -20,7 +20,7 @@ const ButtonIcon = () => {
 
             >
                 <div style={{ marginRight: '0.5em' }}>Default</div>
-                <AddShoppingCartIcon style={{ fontSize: 15, marginRight: '0.5em' }}/>
+                <AddShoppingCartIcon style={{ fontSize: 15}}/>
             </button>
         </div>
         </>
