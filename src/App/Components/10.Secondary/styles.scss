@@ -1,0 +1,27 @@
+
+
+//! === === BUTTON DEFAULT === ===
+.buttonSecondary {
+    padding:8px 16px;
+    background: #455A64;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20,27px;
+    border: 1px solid #455A64;
+    cursor:pointer;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    &:hover {
+        background: #1C313A;
+        color: #FFFFFF;
+        border: 1px solid #1C313A;
+    }
+    &:focus {
+        background: #1C313A;
+        color: #FFFFFF;
+        border: 1px solid #1C313A;
+        outline: 0
+    }
+}
