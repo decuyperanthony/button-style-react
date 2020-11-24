@@ -1,25 +1,21 @@
-.container-button {
-    display: flex;
-    margin-bottom: 1em;
-}
+
 
 //! === === BUTTON DEFAULT === ===
-.default {
+.disabledShadow {
     padding:8px 16px;
-    background: #E0E0E0;
-    color: #3F3F3F;
+    background: #3D5AFE;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 20,27px;
-    border: 1px solid #E0E0E0;
+    border: 1px solid #3D5AFE;
     cursor:pointer;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
     &:hover {
-        background: #AEAEAE;
-        color: #3F3F3F;
-        border: 1px solid #AEAEAE;
+        background: #0039CB;
+        color: #FFFFFF;
+        border: 1px solid #0039CB;
     }
     &:focus {
         background: #AEAEAE;
