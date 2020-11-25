@@ -3,7 +3,7 @@ import './styles.scss';
 const ButtonDanger = () => {
     return (
         <>
-        11. {' '} Color Danger
+        11. {' '} Variant Danger
         <div>
             <button
                 type="button"

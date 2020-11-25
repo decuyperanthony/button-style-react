@@ -3,7 +3,7 @@ import './styles.scss';
 const ButtonSize = () => {
     return (
         <>
-        7. {' '} Size
+        7. {' '} Size  'xs' || 'md' || 'lg'
         <div>
             <button
                 type="button"

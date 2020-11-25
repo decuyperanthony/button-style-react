@@ -13,6 +13,8 @@ import ButtonColor from './Components/8.Color';
 import ButtonPrimary from './Components/9.Primary';
 import ButtonSecondary from './Components/10.Secondary';
 import ButtonDanger from './Components/11.Danger';
+// === react button reusable
+import Button from './Components/Button';
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
       <ButtonSecondary />
       <div style={{marginBottom: '1em'}}/>
       <ButtonDanger />
+      <div style={{marginBottom: '1em'}}/>
+      <Button variant="secondary" size="md" shadow="disbaledShadow"/>
     </div>
   );
 }

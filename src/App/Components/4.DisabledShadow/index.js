@@ -4,7 +4,7 @@ const DisabledShadow = () => {
     return (
         <div>
             4. {' '}
-            <button type="button" className="disabledShadow">Default</button>
+            <button type="button" className="disabledShadowTest">Default</button>
         </div>
     );
 };

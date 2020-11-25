@@ -3,7 +3,7 @@ import './styles.scss';
 const ButtonColor = () => {
     return (
         <>
-        8. {' '} Color default
+        8. {' '} Variant Default
         <div>
             <button
                 type="button"

@@ -3,7 +3,7 @@ import './styles.scss';
 const ButtonSecondary = () => {
     return (
         <>
-        10. {' '} Color Secondary
+        10. {' '} Variant Secondary
         <div>
             <button
                 type="button"

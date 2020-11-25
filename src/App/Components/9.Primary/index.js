@@ -3,7 +3,7 @@ import './styles.scss';
 const ButtonPrimary = () => {
     return (
         <>
-        9. {' '} Color Primary
+        9. {' '} Variant Primary
         <div>
             <button
                 type="button"
