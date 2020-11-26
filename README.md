@@ -88,9 +88,10 @@ export default App;
 |Prop name        |Type          |value     |Default            |Description
 |-----------------|------------|-------|-------------------|--------------------------------
 |size         | `string`    |`'xs' 'md' 'lg'`      | `'md'`  | Size of the button
-|variant        | `string`  |`'primary' 'secondary' 'danger' 'outline' 'text'`     |    `'default'`               | Color and variant of the button
+|variant        | `string`  |`'primary' 'secondary' 'danger' 'outline' 'text' 'default'`     |    `'default'`               | Color and variant of the button
 |shadow        | `string`  | |    `'disbaledShadow'`               | Disabled shadow of the button
-|startIcon, endIcon        | `string`  | |    `'local_grocery_store'`               | add icon in the button
+|startIcon, endIcon        | `string`  | |    `'local_grocery_store'`               | Add icon in the button
+|isDisabled        | `boolean`  | |    `'true' 'false'`               | Disabled the button
 
 
 
