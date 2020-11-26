@@ -39,12 +39,7 @@
 
 ![screenshot](./.github/img/button2.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+React Button component with props
 
 ### Built With
 
@@ -76,6 +71,28 @@ $ yarn
 # Run the app
 $ yarn start
 ```
+## Usage
+```jsx
+import React from 'react';
+import Button from 'Button';
+
+const App = () => {
+  return (
+    <Button size="lg" variant="primary" />
+  )
+};
+
+export default App;
+```
+## Props
+|Prop name        |Type          |value     |Default            |Description
+|-----------------|------------|-------|-------------------|--------------------------------
+|size         | `string`    |`'xs' 'md' 'lg'`      | `'md'`  | Size of the button
+|variant        | `string`  |`'primary' 'secondary' 'danger' 'outline' 'text'`     |    `'default'`               | Color and variant of the button
+|shadow        | `string`  | |    `'disbaledShadow'`               | Disabled shadow of the button
+|startIcon, endIcon        | `string`  | |    `'local_grocery_store'`               | add icon in the button
+
+
 
 ## Acknowledgements
 

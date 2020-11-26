@@ -14,7 +14,7 @@ import ButtonPrimary from './Components/9.Primary';
 import ButtonSecondary from './Components/10.Secondary';
 import ButtonDanger from './Components/11.Danger';
 // === react button reusable
-import Button from './Components/Button';
+import Button from './Button';
 
 function App() {
   return (
@@ -42,7 +42,17 @@ function App() {
       <div style={{marginBottom: '1em'}}/>
       <ButtonDanger />
       <div style={{marginBottom: '1em'}}/>
-      <Button variant="secondary" size="md" shadow="disbaledShadow"/>
+      {'<Button variant="secondary" size="lg" shadow="disbaledShadow"/>'}
+      <Button variant="secondary" size="lg" shadow="disbaledShadow"/>
+      <div style={{marginBottom: '1em'}}/>
+      {'<Button isDisabled={true}/>'}
+      <Button isDisabled={true}/>
+      <div style={{marginBottom: '1em'}}/>
+      {'<Button size="xs" variant="primary" startIcon="local_grocery_store"/>'}
+      <Button size="xs" variant="primary" startIcon="local_grocery_store"/>
+      <div style={{marginBottom: '1em'}}/>
+      {'<Button endIcon="local_grocery_store" variant="danger"/>'}
+      <Button endIcon="local_grocery_store" variant="danger"/>
     </div>
   );
 }
