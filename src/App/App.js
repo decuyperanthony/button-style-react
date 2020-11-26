@@ -53,7 +53,6 @@ function App() {
       <div style={{marginBottom: '1em'}}/>
       {'<Button endIcon="local_grocery_store" variant="danger"/>'}
       <Button endIcon="local_grocery_store" variant="danger"/>
-      fneled onder
     </div>
   );
 }
